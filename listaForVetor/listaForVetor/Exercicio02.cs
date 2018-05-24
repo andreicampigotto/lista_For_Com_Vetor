@@ -18,6 +18,11 @@ namespace listaForVetor
                 idades[i] = Convert.ToInt32(Console.ReadLine());
                 //Console.Clear();
             }
+
+            for (int i = 0; i < idades.Length; i++)
+            {
+                Console.WriteLine(idades[i]);
+            }
         }
     }
 }

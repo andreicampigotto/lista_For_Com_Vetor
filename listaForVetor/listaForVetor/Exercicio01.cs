@@ -15,8 +15,14 @@ namespace listaForVetor
             {
                 Console.Write("\nNome: ");
                 nomes[i] = Console.ReadLine();
-                Console.Clear();
-            }        
+                //Console.Clear();
+                
+            }
+            for (int i = 0; i < nomes.Length; i++)
+            {
+                Console.WriteLine(nomes[i]);
+                
+            }
         }
         
     }

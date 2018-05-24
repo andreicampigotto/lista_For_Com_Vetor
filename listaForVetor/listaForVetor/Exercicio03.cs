@@ -15,15 +15,20 @@ namespace listaForVetor
             int registros = Convert.ToInt32(Console.ReadLine());
 
             int[] contador = new int[registros];
-            double precos = 0;
+            double[] precos = new double [registros];
 
             for (int i = 0; i < contador.Length; i++)
             {
                 Console.Write("Digite o preço: ");
-                precos = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine(precos);
+                precos[i] = Convert.ToDouble(Console.ReadLine());
+                //Console.Clear();
             }
+            for (int i = 0; i < contador.Length; i++)
+            {
+                
+            Console.WriteLine(precos[i]);
+            }
+            
 
 
         }
