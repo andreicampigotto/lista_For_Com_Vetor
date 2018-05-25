@@ -27,7 +27,7 @@ namespace listaForVetor
             for (int i = 0; i < quantidade; i++)
             {
                 
-            Console.WriteLine(string.Format("{0} ----- {1}", jogos[i] , jogosQuantidade[i]));
+            Console.WriteLine(string.Format("{0} - - - - - {1}", jogos[i] , jogosQuantidade[i]));
             }
         }
     }

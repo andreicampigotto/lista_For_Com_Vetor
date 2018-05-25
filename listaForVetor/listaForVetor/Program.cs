@@ -14,7 +14,8 @@ namespace listaForVetor
             //new Exercicio02();
             //new Exercicio03();
             //new Exercicio04();
-            new Exercicio05();
+            //new Exercicio05();
+            new Exercicio06();
         }
     }
 }
