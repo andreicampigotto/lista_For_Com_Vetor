@@ -11,7 +11,7 @@ namespace listaForVetor
         {
             
             
-            int[] camisas = new int[4];
+            int[] camisas = new int[40];
             string[] tamanhos = new string[camisas.Length];
             int PP = 0, P = 0, M = 0, G = 0, GG = 0, XG = 0, XGG = 0;
             
