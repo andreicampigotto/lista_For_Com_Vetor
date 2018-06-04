@@ -22,6 +22,7 @@ namespace listaForVetor
 
                 Console.Write("Quantidade: ");
                 jogosQuantidade [i] = Convert.ToInt32(Console.ReadLine());
+
             }
 
             for (int i = 0; i < quantidade; i++)
