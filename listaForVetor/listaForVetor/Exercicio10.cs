@@ -11,7 +11,7 @@ namespace listaForVetor
         {
             int maxNomes = 3,comA = 0, comS=0, silva = 0;
             string[] nomes = new string[maxNomes];
-            string namesString = "";
+            string namesString = "", maiorNome="", menorNome = "dusahdiuhasuidhasiuhdisahdhsaiuhdsa";
             
             for (int i = 0; i < nomes.Length; i++)
             {
@@ -30,10 +30,24 @@ namespace listaForVetor
                 {
                     silva++;
                 }
+                if (nomes[i].Length > maiorNome.Length)
+                {
+                    maiorNome = nomes[i];
+                }
+                if (nomes[i].Length > menorNome.Length)
+                {
+                    menorNome = nomes[i];
+                }
+
                
             }
             namesString = string.Join(" , ", nomes);
-            Console.WriteLine(namesString);
+            Console.WriteLine(namesString + 
+                              "\nSilvas: " + silva +
+                              "\nPessoas com A: " + comA +
+                              "\nPessoas com S: " + comS + 
+                              "\nMaior nome: " + maiorNome +
+                              "\nMenor nome: " + menorNome);
 
         }
     }

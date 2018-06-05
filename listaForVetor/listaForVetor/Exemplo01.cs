@@ -9,7 +9,7 @@ namespace listaForVetor
     {
         public Exemplo01()
         {
-                        string[] caracteres = new string[20];
+            string[] caracteres = new string[25];
             string[] caracterEspecial = new string[caracteres.Length];
 
 
