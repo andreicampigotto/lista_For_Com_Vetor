@@ -29,7 +29,7 @@ namespace listaForVetor
 
             notaString = string.Join(" | ", notas);
             Console.WriteLine(notaString);
-            Console.Write(string.Format("{0} Media ", media));
+            Console.Write(string.Format("{0} Media: ", media));
 
 
         }
